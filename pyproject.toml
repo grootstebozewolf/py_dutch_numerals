@@ -1,7 +1,3 @@
-[build-system]
-requires = ["setuptools>=61.0", "wheel"]
-build-backend = "setuptools.build_meta"
-
 [project]
 name = "py_dutch_numerals"
 version = "1.0.0"
@@ -30,7 +26,3 @@ include = ["py_dutch_numerals*"]
 
 [tool.setuptools.package-data]
 py_dutch_numerals = ["py.typed"]
-
-[tool.setuptools]
-long_description = { file = "README.md" }
-long_description_content_type = "text/markdown"
