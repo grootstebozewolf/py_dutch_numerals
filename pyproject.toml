@@ -30,3 +30,7 @@ include = ["py_dutch_numerals*"]
 
 [tool.setuptools.package-data]
 py_dutch_numerals = ["py.typed"]
+
+[tool.setuptools]
+long_description = { file = "README.md" }
+long_description_content_type = "text/markdown"
