@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "py_dutch_numerals"
 version = "1.0.0"
@@ -15,10 +19,13 @@ dependencies = [
     "antlr4-python3-runtime",
 ]
 requires-python = ">=3.6"
-
+[project.optional-dependencies]
+dev = [
+    "behave",
+]
 [project.urls]
 Homepage = "https://github.com/grootstebozewolf/py_dutch_numerals"
-"Bug Tracker" = "https://github.com/grootstebozewolf/py_dutch_numerals/issues"
+Issues = "https://github.com/grootstebozewolf/py_dutch_numerals/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
