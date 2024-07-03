@@ -34,3 +34,6 @@ include = ["py_dutch_numerals*"]
 
 [tool.setuptools.package-data]
 py_dutch_numerals = ["py.typed"]
+
+[tool.poetry.data-files]
+include = ["LICENSE"]

@@ -39,7 +39,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under European Union Public License 1.2 (EUPL-1.2) - see the [LICENSE](LICENSE) file for details.
 
 ## Author
 
