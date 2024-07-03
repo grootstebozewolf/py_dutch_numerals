@@ -8,19 +8,15 @@ on:
 jobs:
   release-build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
-
+          python-version: '3.x'
       - name: build Python 🐍 release distributions 📦
         run: |
           python -m pip install build
           python -m build
-
       - name: upload release distribution 📦
         uses: actions/upload-artifact@v4
         with:
@@ -34,15 +30,15 @@ jobs:
     environment:        
       name: release
       url: https://pypi.org/p/py_dutch_numerals
+
     permissions:
       id-token: write
-
     steps:
       - name: Retrieve release distribution 📦
         uses: actions/download-artifact@v4
         with:
           name: release-dists
           path: dist/
-
       - name: Publish Python 🐍 distributions 📦 to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
+
