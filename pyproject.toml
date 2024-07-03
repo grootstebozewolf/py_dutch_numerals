@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "py_dutch_numerals"
-version = "1.0.1"
+version = "1.0.2"
 description = "A Python package to parse and convert Dutch counting numbers into numeric equivalents, supporting numbers up to one million."
 readme = "README.md"
 authors = [{ name = "Jeroen Bloemscheer", email = "info@jeroentechsolutions.uk" }]
