@@ -17,6 +17,7 @@ jobs:
 
       - name: build Python 🐍 release distributions 📦
         run: |
+          python -m pip install build
           python -m build
 
       - name: upload release distribution 📦
